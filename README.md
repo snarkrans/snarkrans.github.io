@@ -3,10 +3,8 @@
 [p1.md](p1.md)
 
 
-[](){: name="hello-world"}
+Take me to <a href="#pookie">pookie</a>
 
-Some text
+... 
 
-
-Some text
-{: #hello-world}
+<a name="pookie">this is pookie</a>
