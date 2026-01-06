@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
+  <meta name="description" content="3D Artist specializing in modeling and photogrammetry. Portfolio and links." />
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -15,13 +17,14 @@
       height: 100vh;
       margin: 0;
     }
-    .card {
+    main.card {
       background: #ffffff;
       padding: 32px;
       border-radius: 16px;
       text-align: center;
       width: 320px;
-      box-shadow: 0 10px 25px rgba(0,0,0,.15);    }
+      box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    }
     h1 {
       margin: 0 0 8px;
       font-size: 24px;
@@ -29,6 +32,10 @@
     p {
       margin: 0 0 24px;
       color: #64748b;
+      line-height: 1.5;
+    }
+    .description strong {
+      color: #020617;
     }
     a {
       display: block;
@@ -39,30 +46,31 @@
       padding: 12px;
       border-radius: 10px;
       font-weight: bold;
-      transition: transform .1s ease, opacity .1s ease;
+      transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
     }
     a:hover {
       transform: translateY(-2px);
-      opacity: .9;
+      box-shadow: 0 6px 12px rgba(0,0,0,.15);
+      opacity: .95;
     }
   </style>
 </head>
 <body>
-  <div class="card">
+  <main class="card">
     <h1>Denis Polyakov</h1>
-    <p>3D Artist<br>Modeling &amp; Photogrammetry<br>Blender &amp; Linux 🐧</p>
 
-    <a href="https://www.behance.net/snarkrans" target="_blank">Behance</a>
-    <a href="https://www.artstation.com/snarkcg" target="_blank">Artstation</a>
-    <a href="https://superhivemarket.com/creators/lampgen" target="_blank">Superhivemarket</a>
-    <a href="https://www.cgtrader.com/designers/snarkrans" target="_blank">Cgtrader</a>
-    <a href="https://www.instagram.com/snarkrans/" target="_blank">Instagram</a>
+    <p class="description">
+      <strong>3D Artist</strong><br>
+      Modeling &amp; Photogrammetry<br>
+      Blender &amp; Linux 🐧
+    </p>
+
+    <a href="https://www.behance.net/snarkrans" target="_blank" rel="noopener noreferrer">Behance</a>
+    <a href="https://www.artstation.com/snarkcg" target="_blank" rel="noopener noreferrer">ArtStation</a>
+    <a href="https://superhivemarket.com/creators/lampgen" target="_blank" rel="noopener noreferrer">Superhivemarket</a>
+    <a href="https://www.cgtrader.com/designers/snarkrans" target="_blank" rel="noopener noreferrer">CgTrader</a>
+    <a href="https://www.instagram.com/snarkrans/" target="_blank" rel="noopener noreferrer">Instagram</a>
     <a href="mailto:snarkrans@gmail.com">Email</a>
-
-
-  </div>
+  </main>
 </body>
 </html>
-
-
-
